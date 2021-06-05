@@ -91,3 +91,28 @@ a = ["apple"]
 b = ["banana"]
 
 print(a + b)
+
+# Operators 
+
+# (+) --> addition 
+# (-) --> subtraction 
+# (*) --> multiplication 
+# (%) --> modulus 
+
+# Assignment operators 
+
+# x += 3 or x = x + 3
+# x -= 3 or x = x - 3 
+
+# Comporator Operators
+
+# == --> Equal to 
+# >= --> Greater than or equal to 
+# <= --> Lesser than or equal to 
+
+# Python List 
+
+list = ["apples", "bananas", "oranges", "apples", "oranges"]
+
+print(list)
+print(len(list))
