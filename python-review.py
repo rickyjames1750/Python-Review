@@ -116,3 +116,13 @@ list = ["apples", "bananas", "oranges", "apples", "oranges"]
 
 print(list)
 print(len(list))
+
+# Tuples 
+
+tuple = ("apples", "bananas", "oranges")
+
+print(tuple)
+print(len(tuple))
+
+this_tuple = ("apples",)
+print(this_tuple)
