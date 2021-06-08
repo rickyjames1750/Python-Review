@@ -126,3 +126,9 @@ print(len(tuple))
 
 this_tuple = ("apples",)
 print(this_tuple)
+
+# Sets
+
+set = {"apples", "bananas", "oranges", "apples"}
+
+print(set)
