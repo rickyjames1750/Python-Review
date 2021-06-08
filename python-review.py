@@ -174,3 +174,15 @@ for x in fruits:
     print(x)
 else: 
     print("Its done!")
+
+# Functions 
+
+def function():
+    print("Hello, I'm a function created by Ricky Sparks!")
+
+function()
+# Function with a argument
+def name(name):
+    print(name)
+
+name("Ricky")
