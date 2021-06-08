@@ -166,3 +166,11 @@ while i < 6:
 else:
     print("i is no longer less than 6")
 
+# For Loops 
+
+fruits = ["apple", "banana", "orange"]
+
+for x in fruits: 
+    print(x)
+else: 
+    print("Its done!")
