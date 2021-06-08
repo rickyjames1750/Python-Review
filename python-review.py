@@ -132,3 +132,14 @@ print(this_tuple)
 set = {"apples", "bananas", "oranges", "apples"}
 
 print(set)
+
+# Dictionaries 
+
+dictionary = {
+    "brand": "Ford",
+    "model": "Focus",
+    "year": 2010,
+
+}
+
+print(dictionary)
