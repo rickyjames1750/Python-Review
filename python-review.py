@@ -186,3 +186,12 @@ def name(name):
     print(name)
 
 name("Ricky")
+
+# Objects 
+
+class MyClass():
+    x = 5
+
+new = MyClass()
+
+print(new.x)
