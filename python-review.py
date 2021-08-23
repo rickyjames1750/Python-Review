@@ -195,3 +195,24 @@ class MyClass():
 new = MyClass()
 
 print(new.x)
+
+
+
+# Python 3 code to showcase
+# removing duplicated from list
+# using naive methods
+
+# initializing the list
+test_list = [1, 3, 5, 6, 3, 5, 6, 1]
+print ("The original list is : " + str(test_list))
+
+# using the naive method
+# to remove the duplicated
+# from list
+res = []
+for i in test_list:
+	if i not in res:
+		res.append(i)
+
+# printing list after the removal
+print ("The list after removing duplicates : " + str(res))
