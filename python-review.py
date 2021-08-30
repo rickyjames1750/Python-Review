@@ -296,3 +296,4 @@ res = list(OrderedDict.fromkeys(test_list))
 
 # printing list after removal
 print ("The list after removing duplicates : " + str(res))
+ // END OF CODE
