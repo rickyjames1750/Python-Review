@@ -296,4 +296,12 @@ res = list(OrderedDict.fromkeys(test_list))
 
 # printing list after removal
 print ("The list after removing duplicates : " + str(res))
+
+
+# The Underscore(_) separator for Large Number
+ten_billion = 10_000_000_000
+
+print(f'{ten_billion:,}')
+10,000,000,000
+
  // END OF CODE
