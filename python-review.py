@@ -327,5 +327,30 @@ print(result_string)
 
 Happy
 
+# Swap values between two variable
+# general
+low = 10
+high = 9
 
- // END OF CODE
+if low > high:
+    temp = low
+    low = high
+    high = temp
+
+print(low, high)
+
+9 10
+
+# advanced
+low = 10
+high = 9
+
+if low > high:
+    low, high = high, low
+
+print(low, high)
+
+9 10
+
+
+# END OF CODE
