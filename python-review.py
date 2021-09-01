@@ -304,4 +304,28 @@ ten_billion = 10_000_000_000
 print(f'{ten_billion:,}')
 10,000,000,000
 
+
+# Assign a value with if statement
+# general
+isHappy = True
+
+if isHappy == True:
+    result_string = 'Happy'
+else:
+    result_string = 'Not Happy'
+
+print(result_string)
+
+Happy
+
+# advanced
+isHappy = True
+
+result_string = 'Happy' if isHappy else 'Not Happy'
+
+print(result_string)
+
+Happy
+
+
  // END OF CODE
