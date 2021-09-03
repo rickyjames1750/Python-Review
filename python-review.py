@@ -381,4 +381,22 @@ for i, grade in enumerate(grades, 1):
 5 : E
 6 : F
 
+
+# List Comprehensions
+# beginner
+numbers = [1, 2, 3, 4, 5, 6, 7]
+
+squared = []
+for number in numbers:
+    squared.append(number * number)
+
+print(squared)
+
+# advanced
+numbers = [1, 2, 3, 4, 5, 6, 7]
+
+squared = [number * number for number in numbers]
+
+print(squared)
+
 # END OF CODE
