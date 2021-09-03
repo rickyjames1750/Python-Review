@@ -352,5 +352,33 @@ print(low, high)
 
 9 10
 
+# Enumerate function
+## general
+grades = ['A', 'B', 'C', 'D', 'E', 'F']
+
+i = 1
+for grade in grades:
+    print(f'{i} : {grade}')
+    i += 1
+
+1 : A
+2 : B
+3 : C
+4 : D
+5 : E
+6 : F
+
+# advanced
+grades = ['A', 'B', 'C', 'D', 'E', 'F']
+
+for i, grade in enumerate(grades, 1):
+    print(f'{i} : {grade}')
+
+1 : A
+2 : B
+3 : C
+4 : D
+5 : E
+6 : F
 
 # END OF CODE
